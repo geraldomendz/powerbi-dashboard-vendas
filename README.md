@@ -1,36 +1,46 @@
-# powerbi-dashboard-vendas
-
 # 📊 Dashboard de Vendas - Power BI
 
-Projeto desenvolvido com o objetivo de analisar dados de vendas utilizando o Microsoft Power BI.
+Este projeto foi desenvolvido como parte dos meus estudos em análise de dados, com o objetivo de transformar dados brutos em informações úteis por meio de um dashboard interativo no Power BI.
 
-##  Objetivo
+##  Sobre o projeto
 
-Construir um dashboard interativo para análise de faturamento, custo, lucro e margem, aplicando boas práticas de modelagem de dados.
+A ideia foi simular um cenário real de análise de vendas, passando por todas as etapas: desde a importação dos dados até a construção de um dashboard com indicadores relevantes para tomada de decisão.
 
-##  Tecnologias utilizadas
+Mais do que apenas criar gráficos, o foco foi entender como estruturar bem os dados para que a análise faça sentido.
+
+---
+
+##  Ferramentas utilizadas
 
 * Power BI
 * Power Query
 * DAX
 * Excel
 
-##  Etapas do projeto
+---
 
-### 1. Coleta de dados
+##  Etapas do desenvolvimento
 
-* Dados obtidos a partir de uma planilha Excel
+### 1 - Coleta de dados
 
-### 2. Tratamento de dados
+Os dados foram obtidos a partir de uma planilha Excel.
 
-* Limpeza e transformação utilizando Power Query
+### 2 - Tratamento de dados
 
-### 3. Modelagem
+Utilizei o Power Query para limpeza, padronização e organização dos dados, garantindo consistência para análise.
 
-* Tabela fato: fVendas
-* Tabelas dimensão: dClientes, dProdutos, dCalendario
+### 3 - Modelagem de dados
 
-### 4. Métricas (DAX)
+Estruturei o modelo utilizando o conceito de:
+
+* **Tabela fato:** fVendas
+* **Tabelas dimensão:** dClientes, dProdutos e dCalendario
+
+Essa etapa foi essencial para garantir uma análise mais eficiente e escalável.
+
+### 4 - Criação de métricas (DAX)
+
+Foram desenvolvidas algumas medidas importantes, como:
 
 * Total Vendido
 * Total de Custo
@@ -38,25 +48,35 @@ Construir um dashboard interativo para análise de faturamento, custo, lucro e m
 * Margem (%)
 * Impostos
 
-### 5. Visualização
+### 5 - Construção do dashboard
 
-* Dashboard com indicadores e análises de vendas
+Com os dados tratados e modelados, desenvolvi um dashboard com foco em análise de vendas, incluindo indicadores, gráficos e filtros interativos.
 
-## 📸 Preview
+---
+
+## 📸 Preview do dashboard
 
 ![Dashboard](images/dashboard.png)
+
+---
 
 ## 🎥 Demonstração
 
 ![Demo](images/demo.gif)
 
+---
+
 ##  Principais aprendizados
 
-* Importância da modelagem (fato vs dimensão)
-* Uso do Power Query para tratamento de dados
+* A importância do tratamento de dados antes da análise
+* Como a modelagem (fato e dimensão) impacta diretamente os resultados
 * Criação de métricas com DAX
-* Construção de dashboards interativos
+* Construção de dashboards interativos no Power BI
 
 ---
 
- Projeto desenvolvido para fins de estudo em análise de dados.
+##  Observação
+
+Este projeto foi desenvolvido para fins de estudo e prática em análise de dados.
+
+
