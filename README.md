@@ -44,7 +44,7 @@ Construir um dashboard interativo para análise de faturamento, custo, lucro e m
 
 ## 📸 Preview
 
-![Dashboard](images/dashboard-vendas.png)
+![Dashboard](images/dashboard.png)
 
 ## 🎥 Demonstração
 
